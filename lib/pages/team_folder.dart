@@ -18,6 +18,7 @@ class _TeamFolderPageState extends State<TeamFolderPage> {
     availableScreenWidth = MediaQuery.of(context).size.width - 50;
     return Scaffold(
       backgroundColor: Colors.grey[100],
+      //main container
       body: Column(children: [
         Container(
           height: 200,
